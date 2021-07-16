@@ -1,0 +1,24 @@
+{
+  "name": "abhemanyus.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/abhemanyus/abhemanyus.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhemanyus/abhemanyus.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhemanyus/abhemanyus.github.io/issues"
+  },
+  "homepage": "https://github.com/abhemanyus/abhemanyus.github.io#readme",
+  "dependencies": {
+    "terser": "^5.7.1"
+  }
+}
