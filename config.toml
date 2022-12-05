@@ -2,10 +2,8 @@ title = "Abhemanyu Sarin"
 description = "Software Engineer"
 base_url = "https://abhemanyus.github.io"
 compile_sass = true
-highlight_code = true
 build_search_index = false
 generate_feed = true
-highlight_theme = "base16-ocean-light"
 theme = "anatole-zola"
 default_language = "en"
 
