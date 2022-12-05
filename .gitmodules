@@ -1,3 +1,6 @@
 [submodule "themes/anatole-zola"]
 	path = themes/anatole-zola
 	url = https://github.com/longfangsong/anatole-zola.git
+[submodule "themes/hephaestus"]
+	path = themes/hephaestus
+	url = https://github.com/BConquest/hephaestus

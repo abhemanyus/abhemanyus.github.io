@@ -4,7 +4,7 @@ base_url = "https://abhemanyus.github.io"
 compile_sass = true
 build_search_index = true
 generate_feed = true
-theme = "anatole-zola"
+theme = "hephaestus"
 default_language = "en"
 
 [markdown]
@@ -16,34 +16,22 @@ highlight_code = true
 smart_punctuation = true
 highlight_theme = "base16-ocean-light"
 
-taxonomies = [
-    {name = "tags"},
-]
-
-[languages.en]
-title = "Abhemanyu Sarin"
-description = "Software Engineer"
-generate_feed = true
-taxonomies = [
-    {name = "tags"},
-]
-
-[languages.en.translations]
-language_name = "English"
-about = "About"
-home = "Home"
-tags = "Tags"
-archive = "Archive"
-links = "Links"
-date_format = "%Y-%m-%d"
-next_page = "Next Page"
-last_page = "Last Page"
-
-[extra.social]
-github = "abhemanyus"
-twitter = "abhemanyus"
-linkedin = "abhemanyu-sarin-82b677211"
-
 [extra.show]
 tags = true
 links = true
+
+[extra]
+author = "Abhemanyu Sarin"
+about = "A software engineer"
+
+menu = [
+{ text = "Home", link = "/" },
+{ text = "About", link = "/about/" },
+{ text = "Education", link = "/education" },
+{ text = "Skills", link = "/skills/" },
+{ text = "Projects", link = "/projects/"}
+]
+
+social = [
+{ user = "Abhemanyu Sarin", link = "mailto:abhemanys@gmail.com", icon = "mail-outline"},
+]
