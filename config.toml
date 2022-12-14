@@ -21,6 +21,7 @@ tags = true
 links = true
 
 [extra]
+bundled = "true"
 author = "Abhemanyu Sarin"
 about = "A software engineer"
 
