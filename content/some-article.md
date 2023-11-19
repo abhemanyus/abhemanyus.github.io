@@ -4,6 +4,7 @@ date = 2017-09-24
 
 [taxonomies]
 categories = ["Hello world"]
+tags = ["sample", "cat"]
 +++
 
 Testing every `elements` you can find in [CommonMark](http://commonmark.org).
