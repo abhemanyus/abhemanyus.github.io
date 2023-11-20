@@ -9,7 +9,7 @@ build_search_index = true
 
 theme = "even"
 
-title = "The Blog"
+title = "The Weblog"
 
 taxonomies = [
   {name = "categories", feed = true},
@@ -30,4 +30,4 @@ even_menu = [
   {url = "$BASE_URL/about", name = "About"},
 ]
 
-even_title = "The Superior Blog"
+even_title = "The Superior Weblog"

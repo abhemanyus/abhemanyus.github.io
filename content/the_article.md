@@ -1,18 +1,24 @@
 +++
-title = "What is Gutenberg"
-date = 2017-09-24
+title = "What is a weblog?"
+date = 2023-11-19 
 
 [taxonomies]
-categories = ["Hello world"]
-tags = ["sample", "cat"]
+categories = ["plaintext"]
+tags = ["musings", "wwwh"]
 +++
 
-Testing every `elements` you can find in [CommonMark](http://commonmark.org).
+The essence of a weblog is hard to capture.
+
+Going to try anyway
 <!-- more -->
 
-Quisque viverra a eros id auctor. Proin id nibh ut nisl dignissim pellentesque et ac mi. Nullam mattis urna quis consequat bibendum. Donec pretium dui elit, a semper purus tristique et. Mauris euismod nisl eu vehicula facilisis. Maecenas facilisis non massa non scelerisque. Integer malesuada cursus erat eu viverra. Duis ligula mi, eleifend vel justo id, laoreet porttitor ex. Etiam ultricies lacus lorem, sed aliquam nulla blandit in. Maecenas vel facilisis neque, vitae fringilla eros. In justo nibh, pellentesque sed faucibus nec, varius sit amet risus.
+> A website that displays postings by one or more individuals in chronological order and usually has links to comments on specific postings. [Wordnik](https://www.wordnik.com/words/blog)
 
-> This is a quote
+> A blog is an informational website consisting of discrete, often informal diary-style text entries. Posts are typically displayed in reverse chronological order so that the most recent post appears first, at the top of the web page. [Wikipedia](https://en.wikipedia.org/wiki/Blog)
+
+The origin of the term is even messier. "Blog" started off as "weblog", coined by one Jorn Barger, for "web-log"; logging on the web. Weblog was then decomposed by a Peter Merholz into *we* and *blog*. Blog came to mean both the activity and the action. And here we are. Personally, I prefer weblog. Actually, going to change all occurrences of it right now.
+
+Much better.
 
 - a
 - bullet
