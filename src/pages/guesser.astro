@@ -1,0 +1,49 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={"The Guessing Game"} description={"Guess the number!"} />
+	</head>
+	<body>
+		<main>
+			<h1 id="textbox">Guess The Number!</h1>
+			<input id="numberbox" type="number" inputmode="numeric" placeholder="Enter your guess" data-random="NaN">
+			<button id="checkBtn" type="button">Check</button>
+			<button id="resetBtn" type="button">Reset</button>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<script>
+	const textbox = document.getElementById("textbox") as HTMLHeadingElement;
+	const numberbox = document.getElementById("numberbox") as HTMLInputElement;
+
+	function checkClick() {
+		const guess = Number(numberbox.value);
+		const randNum = Number(numberbox.getAttribute("data-random"));
+		if (randNum == NaN) return;
+		if (guess < randNum) {
+			textbox.textContent = "Too Low!";
+		} else if (guess > randNum) {
+			textbox.textContent = "Too High!";
+		} else {
+			textbox.textContent = "Just Right 🎉!";
+			numberbox.setAttribute("data-random", String(NaN));
+		}
+	}
+	function submitClick() {
+		textbox.textContent = "Guess The Number!";
+		numberbox.value = "";
+		numberbox.setAttribute("data-random", String(Math.floor(Math.random() * 51)));
+	}
+	submitClick();
+	const checkBtn = document.getElementById("checkBtn")!;
+	checkBtn.onclick = checkClick;
+	const resetBtn = document.getElementById("resetBtn")!;
+	resetBtn.onclick = submitClick;
+</script>
